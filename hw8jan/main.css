@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.red.active {
+    background-color: red;
+}
+.green.active {
+    background-color: green;
+}
+.blue.active {
+    background-color: blue;
+}
+.lights {
+    display: flex;
+    margin-bottom: 10px;
+}
+.buttons {
+    display: flex;
+}
+.button {
+    height: 30px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
